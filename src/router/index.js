@@ -19,6 +19,11 @@ const routes = [
         name: 'Tabla',
         component: () => import(/* webpackChunkName: "home" */ '@/views/Tabla.vue'),
       },
+      {
+        path: '/crud',
+        name: 'CRUD',
+        component: () => import(/* webpackChunkName: "home" */ '@/views/CRUD.vue'),
+      },
     ],
   },
 ]

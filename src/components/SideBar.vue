@@ -21,7 +21,7 @@
                 this.$router.push('/');
             },
             dirigirTabla(){
-                this.$router.push('/tabla');
+                this.$router.push('/crud');
             }
         }
     }
